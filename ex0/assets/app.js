@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const h1 = document.getElementById('h1');
     h1.addEventListener('click', (e) => {
         document.getElementById('h1').style = "color:blue";
-        // Coordonatele punctului unde s-a facut click-ul
         console.log(e.clientX);
         console.log(e.clientY);
         console.log(e);
@@ -49,7 +48,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         formData.get('email'); // example@example.com
         // values() returneaza un array de valori
         [...formData.values()]; // ['example@example.com', 'supersecret']
-        // iterator
         [...formData.entries()]; // [['email', 'example@example.com'], ['password', 'supersecret']]
 
         // transformam intr-un obiect
