@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
         // transformam intr-un obiect
         const data = Object.fromEntries(formData); // { email: 'example@example.com', password: 'supersecret' }
+        // Afisam console.log
         console.log(data);
     });
 
