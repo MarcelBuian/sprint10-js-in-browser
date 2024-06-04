@@ -29,6 +29,7 @@ const clickIndex2 = (event) => {
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
+    console.log("DOMContentLoaded Listener finished.");
     const h1 = document.getElementById('h1');
     h1.addEventListener('click', (e) => {
         document.getElementById('h1').style = "color:blue";
